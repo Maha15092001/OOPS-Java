@@ -22,6 +22,7 @@ public class Main
 		System.out.println(obj.sub(a,b));
 	}
 }
+
 //multilevel inheritance
 import java.util.*;
 class A{
@@ -120,14 +121,7 @@ public class Main
 		System.out.println(web.mul(a,b));
 	}
 }
-o/p:
-Main.java:13: error: '{' expected
-class C extends A,B{
-                 ^
-1 error
 
-
-to overcome drawbacks of multiple inheritance interface is used.
 //interface
 import java.util.*;
 interface A{
@@ -176,11 +170,6 @@ public class Main
 	 System.out.println(d.add(a,b));
 	}
 }
-Main.java:23: error: incompatible types: A cannot be converted to B
-	 B d= new A();//when trying to access a parent class with child class
-	      ^
-1 error
-
 
 //polymorphism-method overloading.
 import java.util.*;
